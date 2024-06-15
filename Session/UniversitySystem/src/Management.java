@@ -40,7 +40,7 @@ public class Management {
                 gpaDefault = student.gpa;
             }
         }
-        System.out.println("Highest GPA of Student List: " + gpaDefault);
+        System.out.println("Highest GPA of Student List: " + gpaDefault);;
 
         for (Information student : students) {
             if (gpaDefault > student.gpa) {
